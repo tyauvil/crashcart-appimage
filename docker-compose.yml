@@ -1,0 +1,13 @@
+---
+version: "3"
+
+services:
+  crashcart-appimage:
+    image: crashcart-appimage
+    build: .
+    volumes:
+      - ./artifacts:/artifacts
+      - ./build.sh:/usr/local/bin/build.sh
+    cap_add:
+      - SYS_ADMIN
+    command: /usr/local/bin/build.sh
