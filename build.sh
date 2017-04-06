@@ -33,7 +33,11 @@ cat << 'EOF' > crashcart.desktop
 Name=Crashcart
 Exec=crashcart
 Icon=crashcart
+Comment=USB Crash Cart Adapter
+Version=1.0
+Type=Application
 Terminal=false
+StartupWMClass=Dover
 
 EOF
 
