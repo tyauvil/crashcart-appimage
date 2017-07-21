@@ -1,1 +1,3 @@
-artifacts/*
+artifacts/*.rules
+artifacts/Copyright
+artifacts/*.AppImage
